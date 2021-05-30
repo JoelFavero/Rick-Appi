@@ -1,0 +1,3 @@
+Hola profe, le comento que tengo un error con  (Each child in a list should have a unique "key" prop.) y esta echo como en la documentacion de react tal cual... y no funciona
+para buscar, en el primer search se debe poner el nombre del personaje- o su estado o su genero
+y para el segundo buscador se debe poner en el primero el nombre y en el segundo el estado
