@@ -84,11 +84,11 @@ export const CharactersCards = ({character,status2,setStatus2}) => {
 
 if (status === "succes" ){      
     const listItems = characterData.results.map((res) =>      
-  <>
+ 
 
-  <Myli key={res.id}> Name: {res.name} <br></br>Status: {res.status} <br></br> Species: {res.species} <br></br> Origin: {res.origin.name} <br></br> <img alt={res.id} src={res.image} /> </Myli>  
+  <Myli key={res.id + res.name}> Name: {res.name} <br></br>Status: {res.status} <br></br> Species: {res.species} <br></br> Origin: {res.origin.name} <br></br> <img alt={res.id + res.name} src={res.image} /> </Myli>  
   
-</>  
+ 
 );
  
 return(  
